@@ -14,7 +14,7 @@ const Achievement = () => {
         
           <h2 className="text-4xl font-bold">Achievements</h2>
         </div>
-        <div className="mt-14 w-full h-[500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[800px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Geeks For Geeks Rank 1 in Institution"
             des="Solved 800+ DSA problem on Geeks For Geeks and have Programming score 2300+."
