@@ -1,6 +1,4 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { contactImg } from "../../assets/index";
+import React from 'react';
 
 const ContactLeft = () => {
   return (
@@ -21,7 +19,7 @@ const ContactLeft = () => {
           Phone: <span className="text-lightText">+91 7906902386</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-4">
-          Email: <span className="text-lightText">hanu.kiet@gmail.com</span>
+          Email: <span className="text-lightText">hanuagarwal08t@gmail.com</span>
         </p>
         
         

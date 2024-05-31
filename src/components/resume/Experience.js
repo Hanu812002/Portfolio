@@ -1,5 +1,5 @@
+import { motion } from "framer-motion";
 import React from "react";
-import {motion} from "framer-motion"
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -18,20 +18,22 @@ const Experience = () => {
          
           
           <ResumeCard
-            title="Front-end Developer DSC KIET"
-            subTitle="September 2022- July 2024"
-            des="DSC(A Student Driven Club)"
+            title="Front-end developer - Studiovity"
+            subTitle="Frbrary 2024- Present"
+            des="World's first web and app-based screenplay & film production management
+             software. Create a professional Call Sheet, Shot list & production calendar."
           />
-              <ResumeCard
-            title="Front-end Developer DSC KIET"
-            subTitle="September 2022- July 2024"
-            des="DSC(A Student Driven Club)"
-          />
+            
           <ResumeCard
             title="Angular Developer - Lannet Infotech "
             subTitle="July 2023 - December 2023"
            
             des="Laneet Infotech(Laneet Infotech Is The Most Comprehensive Development Ecosystem That Lets You Build High-Quality Service-Oriented Transactional Applications And Innovative Systems Efficiently And Quickly.)"
+          />
+            <ResumeCard
+            title="Front-end Developer DSC KIET"
+            subTitle="September 2022- July 2024"
+            des="DSC(A Student Driven Club)"
           />
         </div>
       </div>
