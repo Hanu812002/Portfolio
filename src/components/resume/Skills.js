@@ -1,5 +1,5 @@
-import React from 'react'
 import { motion } from 'framer-motion';
+import React from 'react';
 
 const Skills = () => {
   return (
@@ -92,7 +92,21 @@ const Skills = () => {
         <div className="flex flex-col gap-6">
 
         <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">Angular</p>
+            <p className="text-sm uppercase font-medium">Data Structures in C++</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">80%</span>
+              </motion.span>
+            </span>
+          </div>
+          
+          <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">Java</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -100,7 +114,7 @@ const Skills = () => {
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
-                <span className="absolute -top-7 right-0">70%</span>
+                <span className="absolute -top-7 right-0">60%</span>
               </motion.span>
             </span>
           </div>
@@ -115,6 +129,21 @@ const Skills = () => {
                 className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">75%</span>
+              </motion.span>
+            </span>
+          </div>
+
+          
+        <div className="overflow-x-hidden">
+            <p className="text-sm uppercase font-medium">Angular</p>
+            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
+              <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-7 right-0">70%</span>
               </motion.span>
             </span>
           </div>
@@ -154,19 +183,6 @@ const Skills = () => {
                 className="w-[75%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
               >
                 <span className="absolute -top-7 right-0">75%</span>
-              </motion.span>
-            </span>
-          </div>
-          <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">Data Structures in C++</p>
-            <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
-              <motion.span
-                initial={{ x: "-100%", opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.5 }}
-                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
-              >
-                <span className="absolute -top-7 right-0">90%</span>
               </motion.span>
             </span>
           </div>
