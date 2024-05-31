@@ -22,6 +22,11 @@ const Experience = () => {
             subTitle="September 2022- July 2024"
             des="DSC(A Student Driven Club)"
           />
+              <ResumeCard
+            title="Front-end Developer DSC KIET"
+            subTitle="September 2022- July 2024"
+            des="DSC(A Student Driven Club)"
+          />
           <ResumeCard
             title="Angular Developer - Lannet Infotech "
             subTitle="July 2023 - December 2023"
